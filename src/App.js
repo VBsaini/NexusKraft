@@ -1,11 +1,11 @@
 import logo from "./logo.svg";
 import "./App.css";
-import OverlayShadowComponent from "./OverlayShadowComponent";
+import Navbar from "./components/common/Navbar";
 
 function App() {
   return (
     <div className="App">
-      <OverlayShadowComponent />
+      <Navbar />
     </div>
   );
 }
