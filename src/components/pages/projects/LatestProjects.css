@@ -1,0 +1,12 @@
+.projectContainer {
+  width: max-content;
+  border-radius: 10px;
+  margin: auto;
+  background-color: white;
+}
+.projectContainer .Row {
+  margin-bottom: 20px;
+}
+.projectContainer .Row:last-of-type {
+  margin-bottom: 0px;
+}
