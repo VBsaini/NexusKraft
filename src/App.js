@@ -5,6 +5,7 @@ import HomeImage from "./components/pages/HomeImages/HomeImages";
 import HeroSection from "./components/pages/HeroSection/HeroSection";
 import LatestProjects from "./components/pages/projects/LatestProjects";
 import Trusted from "./components/pages/Trusted/Trusted";
+import Services from "./components/pages/Sevices/Services";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <HomeImage />
         <LatestProjects />
         <Trusted />
+        <Services />
       </div>
     </div>
   );
