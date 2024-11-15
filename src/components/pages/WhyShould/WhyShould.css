@@ -1,0 +1,70 @@
+* {
+  box-sizing: border-box;
+}
+.WhyShouldContainer {
+  margin-top: 80px;
+  padding-top: 30px;
+  margin-bottom: 80px;
+}
+.WhyShouldCardContainer {
+  max-width: 1100px;
+  background-color: white;
+  border-radius: 20px;
+  margin: auto;
+  margin-top: 60px;
+}
+.WhyShouldCard {
+  text-align: left;
+  margin-top: 10px;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 30px;
+  border-right: 1px solid #e3e3e3;
+  border-bottom: 1px solid #e3e3e3;
+}
+.WhyShouldTitle {
+  max-width: 40%;
+  line-height: 1.5;
+  font-size: 38px;
+  font-family: "GeneralSans-Semibold";
+  margin: auto;
+}
+.WhyShouldText {
+  max-width: 20%;
+  font-size: 18px;
+  margin-top: 5px;
+  margin: auto;
+  font-family: "GeneralSans-Regular";
+}
+.WhyShouldCard img {
+  width: 48px;
+  height: 48px;
+}
+.WhyShouldCard h3 {
+  /* font */
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-size: 18px;
+  font-style: normal;
+}
+.WhyShouldCard .bigText {
+  font-size: 1.75rem;
+}
+.WhyShouldCard:last-of-type {
+  padding-right: 20px;
+  margin-right: 20px;
+  border-right: none;
+}
+
+.WhyShouldCard:first-of-type {
+  margin-left: 20px;
+}
+.WhyShouldFirstCard {
+  margin-left: 20px;
+}
+.WhyShould2ndContainer .WhyShouldCard {
+  margin-bottom: 10px;
+  margin-top: 0px;
+  border-bottom: 0;
+}

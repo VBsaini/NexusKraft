@@ -7,6 +7,7 @@ import LatestProjects from "./components/pages/projects/LatestProjects";
 import Trusted from "./components/pages/Trusted/Trusted";
 import Services from "./components/pages/Sevices/Services";
 import Subscriptions from "./components/pages/Subscription/Subscription";
+import WhyShould from "./components/pages/WhyShould/WhyShould";
 
 function App() {
   return (
@@ -19,6 +20,13 @@ function App() {
         <Subscriptions />
         <Trusted />
         <Services />
+        <div
+          style={{
+            background: "rgb(255,255,255)",
+          }}
+        >
+          <WhyShould />
+        </div>
       </div>
     </div>
   );
