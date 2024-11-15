@@ -6,6 +6,7 @@ import HeroSection from "./components/pages/HeroSection/HeroSection";
 import LatestProjects from "./components/pages/projects/LatestProjects";
 import Trusted from "./components/pages/Trusted/Trusted";
 import Services from "./components/pages/Sevices/Services";
+import Subscriptions from "./components/pages/Subscription/Subscription";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <HeroSection />
         <HomeImage />
         <LatestProjects />
+        <Subscriptions />
         <Trusted />
         <Services />
       </div>
