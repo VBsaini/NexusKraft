@@ -8,6 +8,7 @@ import Trusted from "./components/pages/Trusted/Trusted";
 import Services from "./components/pages/Sevices/Services";
 import Subscriptions from "./components/pages/Subscription/Subscription";
 import WhyShould from "./components/pages/WhyShould/WhyShould";
+import Schdule from "./components/pages/Schdule/Schdule";
 
 function App() {
   return (
@@ -20,9 +21,10 @@ function App() {
         <Subscriptions />
         <Trusted />
         <Services />
+        <Schdule />
         <div
           style={{
-            background: "rgb(255,255,255)",
+            background: "rgb(250,250,250)",
           }}
         >
           <WhyShould />

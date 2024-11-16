@@ -4,9 +4,9 @@ import "./HomeImages.css";
 
 function HomeImage() {
   return (
-    <Container fluid className="FrameImgContainer">
-      <img src={Frame} className="FrameImg" />
-    </Container>
+    // <Container fluid className="FrameImgContainer">
+    <img src={Frame} className="FrameImg" />
+    // </Container>
   );
 }
 
