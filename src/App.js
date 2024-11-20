@@ -8,7 +8,6 @@ import Trusted from "./components/pages/Trusted/Trusted";
 import Services from "./components/pages/Sevices/Services";
 import Subscriptions from "./components/pages/Subscription/Subscription";
 import WhyShould from "./components/pages/WhyShould/WhyShould";
-import Schdule from "./components/pages/Schdule/Schdule";
 import ScheduleCall from "./components/pages/ContactUs/ScheduleCall";
 import Reviews from "./components/pages/Reviews/Reviews";
 
@@ -24,7 +23,6 @@ function App() {
         <Trusted />
         <Services />
         <ScheduleCall />
-        <Schdule />
         <div
           style={{
             background: "rgb(250,250,250)",

@@ -1,56 +1,124 @@
-/* .schedule-call-container {
+.schedule-call-container {
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 20px;
-  background-color: #f9f9f9;
   border-radius: 10px;
-  max-width: 400px;
-  margin: auto;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  margin-top: 100px;
+  /* box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); */
 }
-
-h2 {
-  margin-bottom: 10px;
+.schedule-call-container .schedule-call-heading {
+  font-family: "GeneralSans-Semibold";
+  font-weight: 600;
+  font-size: 40px;
 }
-
-p {
-  margin-bottom: 20px;
-  color: #666;
+.schedule-call-container p {
+  font-family: "GeneralSans-Regular";
+  font-weight: 400;
+  font-size: 20px;
+  margin-top: 10px;
+  line-height: 1.1;
+  width: 30%;
 }
 
 .schedule-form {
   display: flex;
-  flex-direction: column;
-  width: 100%;
-}
-
-input,
-select {
-  padding: 10px;
-  margin-bottom: 15px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  font-size: 16px;
-  width: 100%;
-}
-
-.time-selection {
-  display: flex;
-  gap: 10px;
+  flex-direction: row;
   align-items: center;
+  margin-top: 40px;
+  /* max-width: 600px; */
 }
-
-button {
+.schedule-call-inputContainer {
+  display: flex;
+  flex-direction: column;
+  margin-right: 40px;
+  width: 450px;
+}
+.schedule-call-inputContainer input {
+  width: 100%;
+  padding-top: 19px;
+  padding-left: 14px;
+  padding-bottom: 24px;
+  transition: 0.2s all;
+  border-radius: 20px;
+  box-shadow: 0px 2px 2px 1px rgba(0, 0, 0, 0.05);
+  border: 0;
+  margin-bottom: 30px;
+}
+.time-selection .selectContainer {
+  width: 33%;
+  display: inline-block;
+}
+.schedule-call-inputContainer input:hover {
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+}
+.time-selection {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 2px 2px 1px rgba(0, 0, 0, 0.05);
+}
+.selectContainer select {
+  width: 50%;
+  border: 0;
   padding: 10px;
-  background-color: #003366;
-  color: #fff;
-  border: none;
-  border-radius: 5px;
+  text-align: center;
+  font-size: 20px;
   cursor: pointer;
-  font-size: 16px;
+  font-family: "GeneralSans-Regular";
+  transition: 0.2s all;
+  background-color: transparent;
 }
-
-button:hover {
-  background-color: #002244;
-} */
+.selectContainer select:focus {
+  outline: #012138;
+  outline: auto;
+}
+.selectContainer select:hover {
+  outline: #012138;
+  outline: auto;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+}
+.bookBtn {
+  margin-top: 40px;
+  border-radius: 10px;
+  background-color: #012138;
+  color: #fff;
+  outline: 0;
+  font-family: "inter", sans-serif;
+  border: 0;
+  padding: 12px 50px;
+}
+.selectContainer span {
+  width: 50%;
+  border: 0;
+  height: 100%;
+  padding: 10px;
+  text-align: center;
+  font-size: 20px;
+  font-family: "GeneralSans-Regular";
+  background-color: transparent;
+  display: inline-block;
+}
+.amPm select {
+  width: 100%;
+}
+/* +++++++++++++++++++++++++++++++ calendar ++++++++++++++++++++++++++ */
+.react-datepicker {
+  border-radius: 20px !important;
+  border: 0 !important;
+}
+.react-datepicker__header {
+  background-color: #fff !important;
+  border-radius: 20px 20px 0 0 !important;
+}
+/* react-datepicker__navigation react-datepicker__navigation--previous */
+.react-datepicker__day {
+  border-radius: 50% !important;
+  margin: 5px !important;
+  margin-left: 8px !important;
+  margin-right: 8px !important;
+}
+.react-datepicker__day--selected {
+  background-color: #012138 !important;
+  color: #fff !important;
+}

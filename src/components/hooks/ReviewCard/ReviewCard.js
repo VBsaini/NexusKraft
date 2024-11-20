@@ -10,6 +10,7 @@ function ReviewCard(props) {
   return (
     <div className="RCard">
       <img src={NameImage} className="RCardImg" />
+      {/* video */}
       {Text}
       <div className="RCardPerson">
         <img src={Person?.img} className="RCardPersonImg" alt="clientImage" />
