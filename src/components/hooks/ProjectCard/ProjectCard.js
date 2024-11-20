@@ -8,7 +8,7 @@ import "./ProjectCard.css";
 function ProjectCard(props) {
   let { name, link, image } = props;
   return (
-    <Card style={{ width: "20rem", border: "0" }}>
+    <Card style={{ border: "0" }}>
       <Card.Img style={{ borderRadius: "20px" }} variant="top" src={image} />
       <Card.Body className="p-0 m-2">
         <Stack direction="horizontal">

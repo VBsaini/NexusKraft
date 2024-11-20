@@ -1,5 +1,35 @@
 .HeroStack {
   margin: 120px auto;
   margin-bottom: 30px;
-  width: 50vw;
+  width: 70vw;
+}
+.design {
+  color: #80c5ff;
+}
+.HeroStack h1 {
+  font-family: "GeneralSans-Bold";
+  font-weight: 900;
+  font-size: 56px;
+}
+.HeroStack h4 {
+  font-family: "GeneralSans-Regular";
+  font-weight: 200;
+  font-size: 32px;
+}
+.HeroStack button {
+  background-color: #012138;
+  font-family: "inter", sans-serif;
+  font-size: 18px;
+  transition: all 0.2s;
+  font-weight: 400;
+  padding: 10px 25px;
+  border: 0;
+}
+.HeroStack button:hover {
+  background-color: #033e67;
+}
+.trusted {
+  font-family: "GeneralSans-Medium";
+  font-size: 16px;
+  margin-bottom: 5px;
 }

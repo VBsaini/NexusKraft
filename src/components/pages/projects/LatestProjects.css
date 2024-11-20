@@ -1,5 +1,5 @@
 .projectContainer {
-  width: max-content;
+  width: 60vw;
   border-radius: 10px;
   margin: auto;
   background-color: white;
@@ -9,4 +9,11 @@
 }
 .projectContainer .Row:last-of-type {
   margin-bottom: 0px;
+}
+.projectMainContainer {
+  margin-top: -30px;
+}
+.projectMainContainer h2 {
+  font-family: "GeneralSans-SemiBold";
+  font-size: 40px;
 }

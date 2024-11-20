@@ -1,0 +1,12 @@
+.NavbarGITBtn {
+  background-color: #012138;
+  font-family: "inter", sans-serif;
+  font-size: 18px;
+  transition: all 0.2s;
+  font-weight: 400;
+  padding: 10px 25px;
+  border: 0;
+}
+.NavbarGITBtn:hover {
+  background-color: #033e67;
+}

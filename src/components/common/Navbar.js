@@ -3,6 +3,7 @@ import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import Button from "react-bootstrap/Button";
 import navIcon from "../../assets/NavIcon.svg";
+import "./Navbar.css";
 
 import homeNavIcon from "../../assets/nav icon.svg";
 // import navIcon from "../../assets/NavIcon.svg";
@@ -40,7 +41,9 @@ function BrandExample() {
               <Nav.Link href="#">Link</Nav.Link>
               <Nav.Link href="#">Link</Nav.Link>
             </Nav>
-            <Button variant="success">Get In Touch</Button>
+            <Button variant="success" className="NavbarGITBtn">
+              Get In Touch
+            </Button>
           </Navbar.Collapse>
         </Container>
       </Navbar>

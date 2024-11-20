@@ -6,7 +6,7 @@ import ProjectCard from "../../hooks/ProjectCard/ProjectCard";
 
 function LatestProjects() {
   return (
-    <Container>
+    <Container className="projectMainContainer">
       <h2>See our latest projects</h2>
       <div className="projectContainer p-4 mt-4">
         <Row className="Row">

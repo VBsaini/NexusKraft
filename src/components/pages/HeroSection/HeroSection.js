@@ -20,7 +20,7 @@ function HeroSection() {
           <Button>See our work</Button>
         </div>
         <div>
-          <p>Trusted by</p>
+          <p className="trusted">Trusted by</p>
           <img src={Frame} />
         </div>
       </Stack>

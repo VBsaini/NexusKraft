@@ -1,6 +1,7 @@
 .FrameImg {
   width: 100%;
-  margin: 15% 0;
+  margin: 40px 0;
+  margin-bottom: 0;
 }
 .FrameImgContainer {
   overflow: hidden;
