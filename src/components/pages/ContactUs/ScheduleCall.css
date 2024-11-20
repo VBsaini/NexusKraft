@@ -78,6 +78,7 @@
   outline: auto;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
+
 .bookBtn {
   margin-top: 40px;
   border-radius: 10px;
@@ -87,6 +88,11 @@
   font-family: "inter", sans-serif;
   border: 0;
   padding: 12px 50px;
+  box-shadow: 0px 2px 2px 1px rgba(0, 0, 0, 0.05);
+  transition: all 0.2s;
+}
+.bookBtn:hover {
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
 .selectContainer span {
   width: 50%;

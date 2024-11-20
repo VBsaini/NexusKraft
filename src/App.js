@@ -1,6 +1,7 @@
 import "./App.css";
 import "./fonts/css/general-sans.css";
 import Navbar from "./components/common/Navbar";
+import Footer from "./components/common/Footer";
 import HomeImage from "./components/pages/HomeImages/HomeImages";
 import HeroSection from "./components/pages/HeroSection/HeroSection";
 import LatestProjects from "./components/pages/projects/LatestProjects";
@@ -32,6 +33,7 @@ function App() {
           <Reviews />
         </div>
       </div>
+      <Footer />
     </div>
   );
 }
