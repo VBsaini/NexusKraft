@@ -1,9 +1,10 @@
 {
   "files": {
-    "main.css": "/NexusKraft/static/css/main.2be45cc1.css",
-    "main.js": "/NexusKraft/static/js/main.6c3ae880.js",
+    "main.css": "/NexusKraft/static/css/main.3fbc09da.css",
+    "main.js": "/NexusKraft/static/js/main.f315f1e6.js",
     "static/js/453.da8bd8c6.chunk.js": "/NexusKraft/static/js/453.da8bd8c6.chunk.js",
     "static/media/Frame 95.svg": "/NexusKraft/static/media/Frame 95.2f813d89fe78518dfe9c6a145da2f65b.svg",
+    "static/media/FooterBack.svg": "/NexusKraft/static/media/FooterBack.29edba55c778d7db3273c37f893c9475.svg",
     "static/media/MobileAppDev.svg": "/NexusKraft/static/media/MobileAppDev.32321876a47f9a52241d3b350dafa2ac.svg",
     "static/media/Rface.svg": "/NexusKraft/static/media/Rface.812765be7de4d6d9c8a72a51ee9c5008.svg",
     "static/media/trusted.svg": "/NexusKraft/static/media/trusted.818cfe5bbe5444579e138a10b77fe416.svg",
@@ -69,12 +70,12 @@
     "static/media/star.svg": "/NexusKraft/static/media/star.1dc5a87fec2a14d8b33bc265b89aea8e.svg",
     "index.html": "/NexusKraft/index.html",
     "static/media/nav icon.svg": "/NexusKraft/static/media/nav icon.ecfa756887c89a6fc88be4405cc16c78.svg",
-    "main.2be45cc1.css.map": "/NexusKraft/static/css/main.2be45cc1.css.map",
-    "main.6c3ae880.js.map": "/NexusKraft/static/js/main.6c3ae880.js.map",
+    "main.3fbc09da.css.map": "/NexusKraft/static/css/main.3fbc09da.css.map",
+    "main.f315f1e6.js.map": "/NexusKraft/static/js/main.f315f1e6.js.map",
     "453.da8bd8c6.chunk.js.map": "/NexusKraft/static/js/453.da8bd8c6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2be45cc1.css",
-    "static/js/main.6c3ae880.js"
+    "static/css/main.3fbc09da.css",
+    "static/js/main.f315f1e6.js"
   ]
 }
