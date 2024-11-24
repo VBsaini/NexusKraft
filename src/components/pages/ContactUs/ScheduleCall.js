@@ -24,7 +24,7 @@ const ScheduleCall = (props) => {
   };
 
   return (
-    <Container className="schedule-call-container">
+    <Container className="schedule-call-container" id="Contact">
       {page != "abt" ? (
         <>
           <h2 className="schedule-call-heading">Schedule a call with us</h2>
