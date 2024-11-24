@@ -6,11 +6,12 @@ import { TfiArrowTopRight } from "react-icons/tfi";
 import "./ReviewCard.css";
 
 function ReviewCard(props) {
-  let { NameImage, Text, Person } = props;
+  let { NameImage, Text, Person, video } = props;
   return (
     <div className="RCard">
       <img src={NameImage} className="RCardImg" />
-      {/* video */}
+      {video && <video src={video} className="RCardVideo" controls />}
+
       {Text}
       <div className="RCardPerson">
         <img src={Person?.img} className="RCardPersonImg" alt="clientImage" />

@@ -2,6 +2,7 @@ import "./Reviews.css";
 import ReviewCard from "../../hooks/ReviewCard/ReviewCard";
 import Frame from "../../../assets/Review/ReviewHeading.svg";
 import data from "./data";
+import video from "../../../assets/Vids/vid.mp4";
 
 function Reviews() {
   return (
@@ -13,6 +14,7 @@ function Reviews() {
             NameImage={data.Lightning.NameImage}
             Text={data.Lightning.Text}
             Person={data.Lightning.Person}
+            video={video}
           />
           <ReviewCard
             NameImage={data.Profitable.NameImage}

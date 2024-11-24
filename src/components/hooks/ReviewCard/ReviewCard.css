@@ -49,3 +49,9 @@
   font-size: 14px;
   color: gray;
 }
+.RCardVideo {
+  display: block;
+  max-width: 312px;
+  margin-bottom: 15px;
+  border-radius: 14px;
+}

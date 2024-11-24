@@ -5,7 +5,8 @@ import "./ScheduleCall.css";
 import "react-datepicker/dist/react-datepicker.css";
 import { Container } from "react-bootstrap";
 
-const ScheduleCall = () => {
+const ScheduleCall = (props) => {
+  const { page } = props;
   const [name, setName] = useState("");
   const [phoneNumber, setPhoneNumber] = useState("");
   const [hour, setHour] = useState("4");
@@ -24,8 +25,19 @@ const ScheduleCall = () => {
 
   return (
     <Container className="schedule-call-container">
-      <h2 className="schedule-call-heading">Schedule a call with us</h2>
-      <p>Schedule a call and kickstart your journey to success!</p>
+      {page != "abt" ? (
+        <>
+          <h2 className="schedule-call-heading">Schedule a call with us</h2>
+          <p>Schedule a call and kickstart your journey to success!</p>
+        </>
+      ) : (
+        <>
+          <h2 className="schedule-call-heading">
+            <span className="BlueT">Want to discuss your new project?</span>{" "}
+            Schedule a call with us!
+          </h2>
+        </>
+      )}
       <div>
         <form onSubmit={handleSubmit} className="schedule-form">
           <div className="schedule-call-inputContainer">

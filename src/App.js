@@ -6,6 +6,7 @@ import "./fonts/css/general-sans.css";
 import Navbar from "./components/common/Navbar";
 import Footer from "./components/common/Footer";
 import Home from "./components/pages/Home/Home";
+import AboutUs from "./components/pages/AboutUs/AboutUs";
 
 function App() {
   return (
@@ -14,12 +15,8 @@ function App() {
       <div className="websiteContainer">
         <BrowserRouter>
           <Routes>
-            <Route path="/" element={<Home />}>
-              {/* <Route index element={} /> */}
-              {/* <Route path="blogs" element={<Blogs />} />
-              <Route path="contact" element={<Contact />} /> */}
-              {/* <Route path="*" element={<NoPage />} /> */}
-            </Route>
+            <Route path="/" element={<Home />} />
+            <Route path="/about" element={<AboutUs />} />
           </Routes>
         </BrowserRouter>
       </div>

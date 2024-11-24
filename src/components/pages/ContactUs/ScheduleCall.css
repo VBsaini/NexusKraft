@@ -6,8 +6,8 @@
   border-radius: 10px;
   width: 100%;
   margin-top: 100px;
-  /* box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); */
 }
+
 .schedule-call-container .schedule-call-heading {
   font-family: "GeneralSans-Semibold";
   font-weight: 600;

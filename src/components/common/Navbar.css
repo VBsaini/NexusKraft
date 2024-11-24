@@ -7,6 +7,8 @@
   padding: 10px 25px;
   border: 0;
 }
-.NavbarGITBtn:hover {
-  background-color: #033e67;
+.NavbarGITBtn:hover,
+.NavbarGITBtn:active,
+.NavbarGITBtn:focus {
+  background-color: #033e67 !important;
 }

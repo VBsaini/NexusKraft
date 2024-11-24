@@ -1,0 +1,72 @@
+.heading {
+  font-family: "GeneralSans-Bold";
+  font-weight: 900;
+  font-size: 56px;
+}
+.BlueT {
+  color: #80c5ff;
+}
+.aboutUsHeading {
+  padding-top: 125px;
+  margin-bottom: 100px;
+}
+.WWAicon {
+  display: inline-block;
+  width: 37px;
+  filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(301deg)
+    brightness(111%) contrast(101%);
+}
+.whoWeAreHeadingContainer {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.whoWeAreContainer {
+  color: white;
+  border-radius: 16px;
+  background-color: #012138;
+  padding: 48px;
+  margin-bottom: 100px;
+  -webkit-box-shadow: 4px 4px 30px -2px rgba(0, 0, 0, 0.08);
+  -moz-box-shadow: 4px 4px 30px -2px rgba(0, 0, 0, 0.08);
+  box-shadow: 4px 4px 30px -2px rgba(0, 0, 0, 0.08);
+}
+.WWARwing {
+  width: 42px;
+}
+.whoWeAreHeadingContainer p,
+.whatDrivesUsHeadingContainer p {
+  font-family: "GeneralSans-SemiBold";
+  font-weight: 900;
+  font-size: 40px;
+  margin-bottom: 0 !important;
+  display: inline-block;
+  color: white;
+}
+.whoWeAreTextContainer p,
+.whatDrivesUsTextContainer p {
+  font-family: "GeneralSans-Regular";
+  font-size: 20px;
+  color: white;
+}
+.whatDrivesUsContainer {
+  text-align: left;
+  background-color: white;
+  -webkit-box-shadow: 4px 4px 30px -2px rgba(0, 0, 0, 0.08);
+  -moz-box-shadow: 4px 4px 30px -2px rgba(0, 0, 0, 0.08);
+  box-shadow: 4px 4px 30px -2px rgba(0, 0, 0, 0.08);
+  color: black;
+  padding: 48px;
+  border-radius: 16px;
+  margin-bottom: 150px;
+}
+.whatDrivesUsHeadingContainer p {
+  color: black;
+}
+.whatDrivesUsHeadingContainer {
+  margin-bottom: 24px;
+  display: flex;
+}
+.whatDrivesUsTextContainer p {
+  color: black;
+}
