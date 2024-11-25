@@ -89,6 +89,7 @@ const ScheduleCall = (props) => {
           </div>
 
           <DatePicker
+            wrapperClassName="datePicker"
             selected={startDate}
             onChange={(date) => setStartDate(date)}
             inline

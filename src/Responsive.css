@@ -1,0 +1,155 @@
+@media screen and (min-width: 2170px) {
+  .projectContainer {
+    width: 100% !important;
+  }
+  .RCardVideo {
+    max-width: 500px !important;
+    height: 100%;
+  }
+}
+@media screen and (max-width: 1250px) {
+  .ReviewContainer {
+    width: 85% !important;
+  }
+  .SubscriptionTitle {
+    width: 70% !important;
+  }
+  .servicesContainer img {
+    width: 100%;
+  }
+  .HeroStack h1 {
+    font-size: 50px !important;
+  }
+  .HeroStack h4 {
+    font-size: 28px !important;
+  }
+}
+@media screen and (max-width: 950px) {
+  .HeroStack h1 {
+    font-size: 42px !important;
+  }
+  .HeroStack h4 {
+    font-size: 24px !important;
+  }
+  .schedule-form {
+    flex-direction: column !important;
+  }
+  .react-datepicker {
+    width: 100%;
+    margin-top: 40px;
+  }
+  .schedule-call-inputContainer {
+    margin-right: 0 !important;
+  }
+  .datePicker {
+    width: 100%;
+  }
+  .react-datepicker__month-container {
+    width: 100%;
+  }
+  .WhyShouldTitle {
+    max-width: 65% !important;
+  }
+  .projectContainer {
+    width: 80vw !important;
+  }
+  .SubscriptionTitle {
+    max-width: 80% !important;
+    font-size: 35px !important;
+  }
+  .SubscriptionText {
+    max-width: 40% !important;
+  }
+}
+@media screen and (max-width: 770px) {
+  .SubscriptionTitle {
+    max-width: 100% !important;
+    font-size: 30px !important;
+  }
+  .SubscriptionText {
+    max-width: 50% !important;
+  }
+  .projectContainer {
+    width: 100% !important;
+  }
+  .footerContentContainer p {
+    font-size: 40px !important;
+  }
+  .footerMailContainer {
+    display: flex;
+    justify-content: center;
+    /* flex-direction: column !important; */
+  }
+  .footerMailContainer input {
+    width: inherit !important;
+    font-size: 14px !important;
+  }
+  .footerMailContainer button {
+    padding: 16px 20px !important;
+    font-size: 14px !important;
+  }
+  .HeroStack h1 {
+    font-size: 32px !important;
+  }
+  .HeroStack button {
+    font-size: 14px !important;
+  }
+  .HeroStack img {
+    width: 100%;
+  }
+  .HeroStack h4 {
+    font-size: 20px !important;
+  }
+  .schedule-call-inputContainer {
+    width: 100% !important;
+  }
+  .schedule-call-container p {
+    width: 100% !important;
+  }
+  .ReviewContainer {
+    flex-direction: column !important;
+  }
+  .ReviewImg {
+    width: 60% !important;
+  }
+  .WhyShouldCardContainer .row {
+    flex-direction: column !important;
+    /* margin-right: 20px; */
+  }
+  .WhyShouldContainer.container {
+    max-width: 90% !important;
+  }
+  .WhyShouldCardContainer {
+    display: flex;
+    justify-content: center;
+  }
+  .WhyShouldCard {
+    margin: 0 !important;
+    position: relative;
+    border: none !important;
+    border-right: 1px solid #606060 !important;
+    margin-right: 20px !important;
+    padding-right: 0 !important;
+  }
+  .WhyShould2ndContainer .WhyShouldCard {
+    border-right: none !important;
+    margin-right: 0 !important;
+    margin-left: 20px !important;
+  }
+  .WhyShould2ndContainer {
+    margin-right: 0 !important;
+  }
+  .WhyShouldCard h3 {
+    font-size: 16px !important;
+  }
+  .WhyShouldCard p {
+    font-size: 14px !important;
+    width: calc(100% - 20px);
+  }
+  .WhyShouldText {
+    max-width: 100% !important;
+  }
+  .WhyShouldTitle {
+    max-width: 85% !important;
+  }
+}

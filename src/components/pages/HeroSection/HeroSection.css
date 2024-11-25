@@ -2,6 +2,7 @@
   margin: 120px auto;
   margin-bottom: 30px;
   width: 70vw;
+  max-width: 1300px;
 }
 .design {
   color: #80c5ff;
