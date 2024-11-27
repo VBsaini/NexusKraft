@@ -23,8 +23,14 @@
   .HeroStack h4 {
     font-size: 28px !important;
   }
+  .servicesContainer h3 {
+    font-size: 16px !important;
+  }
 }
 @media screen and (max-width: 950px) {
+  .servicesContainer h3 {
+    font-size: 12px !important;
+  }
   .HeroStack h1 {
     font-size: 42px !important;
   }
@@ -62,6 +68,25 @@
   }
 }
 @media screen and (max-width: 770px) {
+  .subscriptionCardContainer .row {
+    margin: 0 !important;
+    flex-direction: column !important;
+  }
+  .subscriptionCardContainer {
+    display: flex !important;
+  }
+
+  .subscription2ndContainer .subscriptionCard {
+    border-bottom: 1px solid #e3e3e3 !important;
+    margin-top: 10px !important;
+    margin-bottom: 0 !important;
+  }
+  .subscriptionCard:last-of-type {
+    border-right: 1px solid #e3e3e3 !important;
+  }
+  .subscriptionCard {
+    margin-left: 0 !important;
+  }
   .SubscriptionTitle {
     max-width: 100% !important;
     font-size: 30px !important;
@@ -151,5 +176,194 @@
   }
   .WhyShouldTitle {
     max-width: 85% !important;
+  }
+  .servicesContainer {
+    margin-left: 20px !important;
+    margin-right: 20px !important;
+  }
+  .servicesContainer h3 {
+    font-size: 10px !important;
+    margin: 8px 0 !important;
+  }
+  .subscription2ndContainer .subscriptionCard {
+    margin-top: 0 !important;
+  }
+  .subscriptionCard {
+    margin-top: 0 !important;
+  }
+  .selectContainer select {
+    padding: 10px 0 !important;
+  }
+  .selectContainer span {
+    padding: 10px 0 !important;
+  }
+  .time-selection .selectContainer {
+    width: 39% !important;
+  }
+  .time-selection .amPm {
+    width: 22% !important;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .servicesContainer .col:first-of-type {
+    border-top: 0px solid #606060;
+    padding-top: 0px !important;
+  }
+  .projectContainer {
+    width: 80% !important;
+  }
+  .projectContainer .Row {
+    flex-direction: column !important;
+  }
+  .projectContainer .Row:last-of-type {
+    display: none;
+  }
+  .servicesContainer .col {
+    border-top: 1px solid #606060;
+    padding-top: 30px !important;
+  }
+  .servicesContainer {
+    flex-direction: column !important;
+  }
+  .servicesContainer h3 {
+    font-size: 15px !important;
+    margin: 20px 0 !important;
+  }
+  .HeroStack {
+    width: 90vw !important;
+  }
+  .projectMainContainer h2 {
+    font-size: 36px !important;
+  }
+  .project_name {
+    font-size: 14px !important;
+  }
+  .SubscriptionTitle {
+    width: 100% !important;
+  }
+  .SubscriptionText {
+    max-width: 80% !important;
+  }
+  .trustedText {
+    font-size: 10px !important;
+    margin-bottom: 5px !important;
+  }
+  .stars {
+    margin: 2px 0 !important;
+  }
+  .stars img {
+    width: 15px !important;
+  }
+}
+
+@media screen and (max-width: 475px) {
+  .footerContentContainer p {
+    font-size: 32px !important;
+  }
+  .footerMailContainer input {
+    padding: 12px 20px !important;
+  }
+  .footerMailContainer {
+    margin-top: 20px;
+  }
+  .footerMailContainer button {
+    padding: 12px 20px !important;
+  }
+  .HeroStack h1 {
+    font-size: 28px !important;
+  }
+  .HeroStack h4 {
+    font-size: 16px !important;
+  }
+  .HeroStack button {
+    font-size: 12px !important;
+  }
+  .schedule-call-container .schedule-call-heading {
+    font-size: 34px !important;
+  }
+  .schedule-call-container p {
+    font-size: 16px !important;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .HeroStack {
+    gap: 0.5rem !important;
+  }
+  .HeroStack h1 {
+    font-size: 24px !important;
+  }
+  .HeroStack h4 {
+    font-size: 14px !important;
+  }
+  .projectMainContainer h2 {
+    font-size: 28px !important;
+  }
+  .SubscriptionTitle {
+    font-size: 24px !important;
+  }
+  .subscriptionCard p {
+    font-size: 14px !important;
+  }
+  .WhyShouldCard p {
+    font-size: 12px !important;
+  }
+  .WhyShouldCard .bigText,
+  .subscriptionCard .bigText {
+    font-size: 20px !important;
+  }
+  .subscriptionCard img {
+    width: 44px;
+    height: 44px;
+  }
+  .ServicesTitle {
+    font-size: 28px !important;
+  }
+  .schedule-call-container .schedule-call-heading {
+    font-size: 26px !important;
+  }
+  .schedule-call-container p {
+    font-size: 14px !important;
+  }
+  .WhyShouldTitle {
+    font-size: 24px !important;
+  }
+  .footerContentContainer p {
+    font-size: 24px !important;
+  }
+  .footerMailContainer input {
+    padding: 12px 13px !important;
+  }
+  .footerMailContainer button {
+    padding: 12px 13px !important;
+  }
+}
+
+@media screen and (max-width: 340px) {
+  .projectContainer {
+    width: 90% !important;
+  }
+  .HeroStack h1 {
+    font-size: 20px !important;
+  }
+  .HeroStack h4 {
+    font-size: 11px !important;
+  }
+  .HeroStack button {
+    padding: 5px 15px;
+    /* font-size: 8px !important; */
+  }
+  .trusted {
+    font-size: 12px !important;
+  }
+  .subscriptionCard {
+    margin-top: 0px !important;
+    padding-top: 10px !important;
+    padding-right: 10px !important;
+  }
+  .footerMailContainer button,
+  .footerMailContainer input {
+    font-size: 10px !important;
   }
 }
