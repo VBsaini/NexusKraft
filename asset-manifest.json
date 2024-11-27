@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/NexusKraft/static/css/main.17d3840d.css",
-    "main.js": "/NexusKraft/static/js/main.0685e9db.js",
+    "main.js": "/NexusKraft/static/js/main.6452e50a.js",
     "static/js/453.da8bd8c6.chunk.js": "/NexusKraft/static/js/453.da8bd8c6.chunk.js",
     "static/media/vid.mp4": "/NexusKraft/static/media/vid.1b5bae9fb302c369ceb8.mp4",
     "static/media/Frame 95.svg": "/NexusKraft/static/media/Frame 95.2f813d89fe78518dfe9c6a145da2f65b.svg",
@@ -73,11 +73,11 @@
     "index.html": "/NexusKraft/index.html",
     "static/media/nav icon.svg": "/NexusKraft/static/media/nav icon.ecfa756887c89a6fc88be4405cc16c78.svg",
     "main.17d3840d.css.map": "/NexusKraft/static/css/main.17d3840d.css.map",
-    "main.0685e9db.js.map": "/NexusKraft/static/js/main.0685e9db.js.map",
+    "main.6452e50a.js.map": "/NexusKraft/static/js/main.6452e50a.js.map",
     "453.da8bd8c6.chunk.js.map": "/NexusKraft/static/js/453.da8bd8c6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.17d3840d.css",
-    "static/js/main.0685e9db.js"
+    "static/js/main.6452e50a.js"
   ]
 }
