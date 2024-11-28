@@ -27,7 +27,7 @@ function BrandExample() {
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ms-auto me-auto">
-              <Nav.Link href="/">
+              <Nav.Link href="#/">
                 <img
                   src={homeNavIcon}
                   width="15"
@@ -37,10 +37,38 @@ function BrandExample() {
                 />
                 Home
               </Nav.Link>
-              <Nav.Link href="#Work">Our Work</Nav.Link>
-              <Nav.Link href="/about">About</Nav.Link>
-              <Nav.Link href="#Services">Our Services</Nav.Link>
-              <Nav.Link href="#Contact">Contact</Nav.Link>
+              <Nav.Link
+                onClick={(e) => {
+                  document
+                    .getElementById("Work")
+                    .scrollIntoView({ behavior: "smooth" });
+                }}
+              >
+                Our Work
+              </Nav.Link>
+              <Nav.Link href="#/about">About</Nav.Link>
+              <Nav.Link
+                onClick={(e) => {
+                  if (window.location.href.split("#")[1] == "/about") {
+                    window.location.href = "#/";
+                  }
+                  // window.location.href.split("#")[1] == "/about"
+                  document
+                    .getElementById("Services")
+                    .scrollIntoView({ behavior: "smooth" });
+                }}
+              >
+                Our Services
+              </Nav.Link>
+              <Nav.Link
+                onClick={(e) => {
+                  document
+                    .getElementById("Contact")
+                    .scrollIntoView({ behavior: "smooth" });
+                }}
+              >
+                Contact
+              </Nav.Link>
             </Nav>
             <Button variant="success" className="NavbarGITBtn">
               Get In Touch

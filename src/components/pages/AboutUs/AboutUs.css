@@ -65,6 +65,7 @@
 }
 .whatDrivesUsHeadingContainer {
   margin-bottom: 24px;
+  align-items: center;
   display: flex;
 }
 .whatDrivesUsTextContainer p {

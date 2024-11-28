@@ -35,7 +35,7 @@ function Home() {
         <div className="whatDrivesUsContainer">
           <div className="whatDrivesUsHeadingContainer">
             <img className="WDUicon" src={WDUicon} />
-            <p>Who We Are</p>
+            <p>What drives us</p>
           </div>
           <div className="whatDrivesUsTextContainer">
             <p>

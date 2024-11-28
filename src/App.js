@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route, BrowserRouter } from "react-router-dom";
 
 import "./App.css";
 import "./fonts/css/general-sans.css";
@@ -13,9 +13,9 @@ function App() {
     <div className="App">
       <Navbar />
       <div className="websiteContainer">
-        <BrowserRouter>
+        <BrowserRouter basename={`/${process.env.PUBLIC_URL}`}>
           <Routes>
-            <Route path="/" element={<Home />} />
+            <Route path="" element={<Home />} />
             <Route path="/about" element={<AboutUs />} />
           </Routes>
         </BrowserRouter>
