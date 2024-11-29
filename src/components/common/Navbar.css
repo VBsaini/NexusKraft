@@ -12,3 +12,8 @@
 .NavbarGITBtn:focus {
   background-color: #033e67 !important;
 }
+.navbarLink {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+}

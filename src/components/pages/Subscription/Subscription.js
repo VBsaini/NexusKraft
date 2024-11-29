@@ -31,14 +31,19 @@ function Subscription() {
             <h3>
               <span className="bigText">3x</span> faster
             </h3>
-            <p>average app rating our design get based on 6,500+ reviews</p>
+            <p>
+              turnarounds with large-sized projects taking 8-12 weeks on avg.
+            </p>
           </Col>
           <Col className="subscriptionCard">
             <img src={savingImg} />
             <h3>
               <span className="bigText">$50,000</span>
             </h3>
-            <p>average app rating our design get based on 6,500+ reviews</p>
+            <p>
+              annual savings compared to hiring a senior in-house product
+              designer.
+            </p>
           </Col>
         </Row>
         <Row className="subscription2ndContainer">
@@ -47,21 +52,27 @@ function Subscription() {
             <h3>
               <span className="bigText">30+</span> years
             </h3>
-            <p>average app rating our design get based on 6,500+ reviews</p>
+            <p>
+              of combined experience in product design, motion, and no-code.
+            </p>
           </Col>
           <Col className="subscriptionCard">
             <img src={stonksImg} />
             <h3>
               <span className="bigText">$100</span>M+
             </h3>
-            <p>average app rating our design get based on 6,500+ reviews</p>
+            <p>
+              raised for pre-seed → series C startups thanks to our designs.
+            </p>
           </Col>
           <Col className="subscriptionCard">
             <img src={moneyImg} />
             <h3>
               <span className="bigText">$6k</span>/mo
             </h3>
-            <p>average app rating our design get based on 6,500+ reviews</p>
+            <p>
+              for an immediate access to a team of specialized senior designers
+            </p>
           </Col>
         </Row>
       </div>
